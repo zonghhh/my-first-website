@@ -1,2 +1,6 @@
-# Restaurant Website (design)
-- reservation form doesnt work T_T
+# Restaurant Website (user experience focused)
+- user friendly design (jump to top button)
+- visual feedback (button hover)
+
+## Note:
+- reservation form is buggy
