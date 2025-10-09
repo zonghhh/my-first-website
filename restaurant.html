@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Restaurant "Château Sucré"</title>
+    <link rel="stylesheet" type="text/css" href="restaurant.css">
+    <script type="text/javascript" src="restaurant.js"></script>
+</head>
+<nav class="navbar">
+    <ul id="sidebar">
+        <li onclick = hide_side_bar() class="sidebtn"><img src="./media/close_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png" height="30px" width="30px"></a></li>            <li><a href ="home.html">Home</a></li>
+        <li><a href="booking.html">Rooms</a></li>
+        <li><a href="restaurant.html">Restaurant</a></li>
+        <li><a href="Events.html">Events</a></li>
+        <li><a href ="contact.html">Contact Us</a></li>
+        <li><a href ="about.html">About Us</a></li>
+    </ul>
+    <ul>
+        <li class="hideonpc sidebtn" onclick = show_side_bar()><img src="./media/menu_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png" height="30px" width="30px"></a></li>
+        <li class="hideonmobile sideicon"><a href="booking.html">Rooms</a></li>
+        <li class="hideonmobile sideicon"><a href="Events.html">Events</a></li>
+        <li class="hideonmobile homeicon"><a href="home.html" class='homeicon'><img class='icon' src="./media/Logo.png" height="30pxpx" width="30px"></a></li>
+        <li class="hideonmobile sideicon"><a href ="contact.html">Contact Us</a></li>
+        <li class="hideonmobile sideicon"><a href ="about.html">About Us</a></li>
+        <li class="hideonpc"><img class='icon' src="./media/Logo.png" height="25px" width="25px"></li>
+    </ul>
+</nav>
+<div id="banner_image_container">
+    <div class="bannertext">Château Sucré</div>
+    <p class="bannerimage"></p>
+    <div class="bottomscroll">__<br>-</div>
+</div>
+<body>
+    <div id="stick">
+    <br>
+    <p class="attracttext">Prepare to be enthralled and bewitched at Château Sucré<br>
+        as you are bespelled by our Enchanting Cuisines.<br>
+         Only the finest conjured by our masters of the kicthen.</p>
+    <p class="bottomborder"></p>
+    <div class="buttoncontainer">
+        <a class="button" href="./restaurantreservation.html">Reserve a table</a>
+    </div>
+    <p class="bottomborder"></p>
+    <p class="header">Our top 5 dishes</p>
+    <div class="top5wrapper">
+        <div class="top5container">
+            <input type="radio" name="item" id="item1" checked>
+            <label for="item1" class="card">
+                <div class="row">
+                    <div class="icon">1</div>
+                    <div class="description">
+                        <h3>Signature Yule Log Cake</h3>
+                        <p>Delight in this hansel and gretel candy styled log cake.</p>
+                    </div>
+                </div>
+            </label>
+            <input type="radio" name="item" id="item2">
+            <label for="item2" class="card">
+                <div class="row">
+                    <div class="icon">2</div>
+                    <div class="description">
+                        <h3>Hot Chocolate</h3>
+                        <p>Warm chocolatty goodness.</p>
+                    </div>
+                </div>    
+            </label>
+            <input type="radio" name="item" id="item3">
+            <label for="item3" class="card">
+                <div class="row">
+                    <div class="icon">3</div>
+                    <div class="description">
+                        <h3>Signature Stuffed Turkey</h3>
+                        <p>A classic family delight.</p>
+                    </div>
+                </div>    
+            </label>
+            <input type="radio" name="item" id="item4">
+            <label for="item4" class="card">
+                <div class="row">
+                    <div class="icon">4</div>
+                    <div class="description">
+                        <h3>Vegetarian Stew</h3>
+                        <p>A heart combination of vegtables, herbs and spices.</p>
+                    </div>
+                </div>    
+            </label>
+            <input type="radio" name="item" id="item5">
+            <label for="item5" class="card">
+                <div class="row">
+                    <div class="icon">5</div>
+                    <div class="description">
+                        <h3>Pie</h3>
+                        <p>Sink into a symphony of flavors wrapped in a flaky embrace.</p>
+                    </div>
+                </div>    
+            </label>
+        </div>
+    </div>
+    <div class="chef">
+        <p class="cheftitle">Masters of their Craft</p>
+        <div class="chefimage chef1">
+            <img src="./media/chef1.jpg" class="chef1">
+        </div>
+        <div class="chefimage chef2">   
+            <img src="./media/chef2.jpg" class="chef2">
+        </div>   
+        <p class="chefdesc">Our esteemed chefs have honed their skills through years of dedicated work in countless kitchens. Only the most exceptional talents grace our atelier. Indulge in a harmonious symphony of exquisite flavors and aromatic spices.</p>
+    </div>
+    <p class="header">A night to remember</p>
+    <div class="specialwrap">
+        <ul class="specialcontainer1">
+            <li class="specialimage one"><img src="./media/jazz band.JPG"></li>
+            <li class="specialtext1">Every saturday and sunday we invite musicians from various walks of life to perform, as we celebrate the union of culinary artistry and soul-stirring tunes. Be entranced by the harmonious music of jazz, classical, pop, folk and many other genres!<br><br>Harmony Nights kick off at 7:00 PM and continue until 10:00 PM. Reserve your table in advance to secure the best seats!</li>
+        </ul>
+    </div>
+    <div class="specialwrap">
+        <ul class="specialcontainer2">
+            <li class="specialtext2">Step into a world of enchantment at “Lumière Enchante” our restaurant's nightly light extravaganza. As twilight settles, the ambiance transforms into a symphony of luminescence, leaving diners spellbound.<br><br>Book a table for an unforgettable evening of culinary delights and visual candy!</li>
+            <li class="specialimage two"><img src="./media/lightshow.jpg"></li>
+        </ul>
+    </div>
+    <img onclick="JumpTop()" id="jumptotop" src="./media/arrow_upward_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png">
+    <footer>
+        <div class="footer-container">
+            <div class="footer-content">
+                <h3 class="footertitle">Contact Us</h3>
+                <p>Email:ChâteauSucré@mail.com</p>
+                <p>phone:+1234567</p>
+                <p>Address:blk 123 sesame street</p>
+            </div>
+            <div class="footer-content">
+                <h3 class="footertitle">Quick Links</h3>
+                <ul class="footerlist">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="bottom">
+            <p>©2024 ChâteauSucré. All rights maybe reserved.</p>
+        </div>
+    </footer>
+    </div>
+</body>
+</html>
